@@ -1,0 +1,152 @@
+/* NAFERIOR About Us Styles */
+.about-hero {
+  background-color: var(--bg-dark);
+  color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.about-hero p {
+  color: #a3a6ab;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-content-section {
+  padding: 80px 0 100px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.about-image img {
+  border-radius: 6px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.about-text h2 {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #474a50;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  font-size: 0.98rem;
+}
+
+.team-section {
+  background-color: #ffffff;
+  padding: 60px 40px;
+  border-radius: 8px;
+  margin-bottom: 60px;
+  border: 1px solid var(--border-cream);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.team-card {
+  text-align: center;
+  padding: 30px 20px;
+  background: var(--bg-cream);
+  border-radius: 6px;
+  border: 1px solid var(--border-cream);
+}
+
+.team-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 18px;
+  background: var(--bg-dark);
+  color: var(--accent-gold);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.team-card h4 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  margin-bottom: 4px;
+}
+
+.team-role {
+  color: var(--accent-gold);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.team-desc {
+  font-size: 0.85rem;
+  color: #6e7074;
+  line-height: 1.6;
+}
+
+.tech-stack-box {
+  background: var(--bg-dark);
+  border-radius: 8px;
+  padding: 40px;
+  color: #ffffff;
+}
+
+.tech-stack-box h3 {
+  font-family: var(--font-display);
+  color: #ded6c8;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tech-pill {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,116 @@
+export const mockCategories = [
+  { id: 'all', name: 'Tất Cả', icon: '⚡' },
+  { id: 'laptop', name: 'Laptop & Macbook', icon: '💻' },
+  { id: 'phone', name: 'Điện Thoại Di Động', icon: '📱' },
+  { id: 'tablet', name: 'Máy Tính Bảng', icon: '📋' },
+  { id: 'audio', name: 'Tai Nghe & Loa', icon: '🎧' },
+  { id: 'watch', name: 'Smartwatch', icon: '⌚' },
+  { id: 'accessories', name: 'Phụ Kiện Cao Cấp', icon: '🔌' },
+];
+
+export const mockProducts = [
+  {
+    id: 1,
+    title: 'MacBook Pro 16 inch M3 Max (36GB / 1TB SSD)',
+    category: 'laptop',
+    categoryName: 'Laptop',
+    price: 79990000,
+    oldPrice: 84990000,
+    rating: 5.0,
+    badge: 'GIẢM 5 TR',
+    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&auto=format&fit=crop&q=80',
+    featured: true,
+    description: 'Chip M3 Max quái vật hiệu năng, màn hình Liquid Retina XDR 120Hz siêu sắc nét.'
+  },
+  {
+    id: 2,
+    title: 'iPhone 16 Pro Max 256GB - Titan Tự Nhiên',
+    category: 'phone',
+    categoryName: 'Điện Thoại',
+    price: 34490000,
+    oldPrice: 36990000,
+    rating: 4.9,
+    badge: 'HOT',
+    image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500&auto=format&fit=crop&q=80',
+    featured: true,
+    description: 'Thiết kế khung viền Titan siêu nhẹ, nút Điều khiển Camera mới, chip A18 Pro.'
+  },
+  {
+    id: 3,
+    title: 'Sony WH-1000XM5 Tai Nghe Chống Ồn Cao Cấp',
+    category: 'audio',
+    categoryName: 'Tai Nghe',
+    price: 6990000,
+    oldPrice: 8490000,
+    rating: 4.8,
+    badge: '-18%',
+    image: 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500&auto=format&fit=crop&q=80',
+    featured: true,
+    description: 'Chống ồn chủ động số 1 thế giới, thời lượng pin 30 giờ, âm thanh chuẩn Hi-Res.'
+  },
+  {
+    id: 4,
+    title: 'Apple Watch Ultra 2 GPS + Cellular 49mm',
+    category: 'watch',
+    categoryName: 'Smartwatch',
+    price: 20990000,
+    oldPrice: 22990000,
+    rating: 4.9,
+    badge: 'BÁN CHẠY',
+    image: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500&auto=format&fit=crop&q=80',
+    featured: true,
+    description: 'Vỏ titan chống chịu thời tiết khắc nghiệt, định vị GPS kép chính xác cao.'
+  },
+  {
+    id: 5,
+    title: 'iPad Pro 13 inch M4 Ultra Retina OLED 256GB',
+    category: 'tablet',
+    categoryName: 'Tablet',
+    price: 36990000,
+    oldPrice: 38990000,
+    rating: 4.9,
+    badge: 'MỚI 2026',
+    image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&auto=format&fit=crop&q=80',
+    featured: true,
+    description: 'Độ mỏng kỷ lục 5.1mm, màn hình OLED Tandem đột phá, chip Apple M4 đỉnh cao.'
+  },
+  {
+    id: 6,
+    title: 'Bàn phím cơ không dây Keychron Q1 Pro QMK/VIA',
+    category: 'accessories',
+    categoryName: 'Phụ Kiện',
+    price: 4390000,
+    oldPrice: 4790000,
+    rating: 4.7,
+    badge: '-10%',
+    image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&auto=format&fit=crop&q=80',
+    featured: true,
+    description: 'Khung nhôm nguyên khối CNC, kết nối Bluetooth 5.1, hỗ trợ hot-swap switch.'
+  },
+  {
+    id: 7,
+    title: 'Loa Bluetooth Marshall Stanmore III Đa Năng',
+    category: 'audio',
+    categoryName: 'Loa Nghe Nhạc',
+    price: 8990000,
+    oldPrice: 9990000,
+    rating: 4.8,
+    badge: 'HOT',
+    image: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?w=500&auto=format&fit=crop&q=80',
+    featured: false,
+    description: 'Thiết kế cổ điển vintage đậm chất rock, âm trường rộng sống động cả căn phòng.'
+  },
+  {
+    id: 8,
+    title: 'Chuột công thái học Logitech MX Master 3S',
+    category: 'accessories',
+    categoryName: 'Phụ Kiện',
+    price: 2190000,
+    oldPrice: 2490000,
+    rating: 4.9,
+    badge: 'BEST CHOICE',
+    image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&auto=format&fit=crop&q=80',
+    featured: false,
+    description: 'Cảm biến 8000 DPI lướt mượt trên kính, con lăn MagSpeed siêu êm và chính xác.'
+  }
+];
